@@ -1,0 +1,18 @@
+{
+  "kind": "collectionType",
+  "collectionName": "actors",
+  "info": {
+    "singularName": "actor",
+    "pluralName": "actors",
+    "displayName": "actor"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "test": {
+      "type": "string"
+    }
+  }
+}
