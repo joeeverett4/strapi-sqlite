@@ -4,7 +4,8 @@
   "info": {
     "singularName": "modela",
     "pluralName": "modelas",
-    "displayName": "Modela"
+    "displayName": "Modela",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -18,46 +19,53 @@
       "type": "richtext"
     },
     "Column_one_images": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
       "allowedTypes": [
         "images",
         "files",
         "videos",
         "audios"
-      ],
-      "type": "media",
-      "multiple": true
+      ]
     },
     "Column_two_images": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
       "allowedTypes": [
         "images",
         "files",
         "videos",
         "audios"
-      ],
-      "type": "media",
-      "multiple": true
+      ]
     },
     "Column_three_images": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
       "allowedTypes": [
         "images",
         "files",
         "videos",
         "audios"
-      ],
-      "type": "media",
-      "multiple": true
+      ]
     },
     "Column_four_images": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
       "allowedTypes": [
         "images",
         "files",
         "videos",
         "audios"
-      ],
-      "type": "media",
-      "multiple": true
+      ]
     },
     "Video": {
+      "type": "string"
+    },
+    "handle": {
       "type": "string"
     }
   }
