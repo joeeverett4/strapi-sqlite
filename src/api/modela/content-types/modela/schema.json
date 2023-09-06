@@ -67,6 +67,18 @@
     },
     "handle": {
       "type": "string"
+    },
+    "image_one_alt": {
+      "type": "string"
+    },
+    "image_two_alt": {
+      "type": "string"
+    },
+    "image_three_alt": {
+      "type": "string"
+    },
+    "image_four_alt": {
+      "type": "string"
     }
   }
 }
