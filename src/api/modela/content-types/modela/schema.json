@@ -79,6 +79,19 @@
     },
     "image_four_alt": {
       "type": "string"
+    },
+    "video_placeholder": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "Scene": {
+      "type": "string"
     }
   }
 }
