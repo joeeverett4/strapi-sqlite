@@ -81,17 +81,23 @@
       "type": "string"
     },
     "video_placeholder": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
       "allowedTypes": [
         "images",
         "files",
         "videos",
         "audios"
-      ],
-      "type": "media",
-      "multiple": false
+      ]
     },
     "Scene": {
       "type": "string"
+    },
+    "modelas": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::modela.modela"
     }
   }
 }
